@@ -1,6 +1,6 @@
 Name:           perl-Text-Soundex
 Version:        3.04
-Release:        2%{?dist}
+Release:        4%{?dist}
 Summary:        Implementation of the soundex algorithm
 License:        Copyright only
 Group:          Development/Libraries
@@ -56,6 +56,12 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.04-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.04-3
+- Mass rebuild 2013-12-27
+
 * Tue May 28 2013 Petr Pisar <ppisar@redhat.com> - 3.04-2
 - Correct typo in dependencies
 
